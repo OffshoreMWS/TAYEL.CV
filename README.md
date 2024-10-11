@@ -1,38 +1,300 @@
-# TAYEL
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - CV</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        h1, h2 {
-            color: #4CAF50;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Your Name</h1>
-    <p>Offshore Company Representative at RINA</p>
-    
-    <div class="section">
-        <h2>Experience</h2>
-        <p><strong>RINA</strong> - Offshore Company Representative</p>
-        <p>Dates: 2021 - Present</p>
-        <p>Description: Responsible for offshore work execution and supervision.</p>
-    </div>
+<style type="text/css">
+    .awlist1 {
+        list-style: none;
+        counter-reset: awlistcounter8_0
+    }
 
-    <div class="section">
-        <h2>Education</h2>
-        <p><strong>University of Your Choice</strong> - Degree Name</p>
-        <p>Graduation Year: 2020</p>
-    </div>
-</body>
-</html>
+    .awlist1>li:before {
+        content: counter(awlistcounter8_0) '-';
+        counter-increment: awlistcounter8_0
+    }
+
+    .awlist2 {
+        list-style: none;
+        counter-reset: awlistcounter8_0 1
+    }
+
+    .awlist2>li:before {
+        content: counter(awlistcounter8_0) '-';
+        counter-increment: awlistcounter8_0
+    }
+
+    .awlist3 {
+        list-style: none;
+        counter-reset: awlistcounter8_0 2
+    }
+
+    .awlist3>li:before {
+        content: counter(awlistcounter8_0) '-';
+        counter-increment: awlistcounter8_0
+    }
+
+    .awlist4 {
+        list-style: none;
+        counter-reset: awlistcounter8_0 3
+    }
+
+    .awlist4>li:before {
+        content: counter(awlistcounter8_0) '-';
+        counter-increment: awlistcounter8_0
+    }
+</style>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:115%; font-size:14pt;"><img src="data:image/jpeg;base64,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" width="82" height="116" alt=""></p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:115%; font-size:14pt;"><strong><em><u><span style="font-family:Arial; letter-spacing:-0.15pt; vertical-align:-0.5pt; color:#002060; background-color:#c0c0c0;">CURRICULUM VITAE</span></u></em></strong><strong><em><u><span style="font-family:Arial; letter-spacing:-0.15pt; vertical-align:-0.5pt; color:#002060; background-color:#c0c0c0;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></u></em></strong><strong><em><u><span style="font-family:Arial; letter-spacing:-0.15pt; vertical-align:-0.5pt; color:#002060; background-color:#c0c0c0;">MOHAMED TAYEL</span></u></em></strong></p>
+<p style="margin-top:0pt; margin-bottom:8pt;">&nbsp;<strong><em><span style="color:#222a35;font-family:Andalus;">Offshore Company Site Representative &amp;&nbsp;</span></em></strong></p>
+<p style="margin-top:0pt; margin-bottom:8pt;"><strong><em><span style="color:#222a35;font-family:Andalus;">Project Manager. Offshore Installation, Manager, PMC &amp;&nbsp;</span></em></strong></p>
+<p style="margin-top:0pt; margin-bottom:8pt;"><strong><em><span style="color:#222a35;font-family:Andalus;">Project. Operations Lead Project Eng. &amp;</span></em></strong></p>
+<p style="margin-top:0pt; margin-bottom:8pt;"><strong><em><span style="color:#222a35;font-family:Andalus;">Accredited Marine Warranty &nbsp;Surveyor&nbsp;</span></em></strong><strong>&nbsp;</strong></p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:14pt;"><strong><u><span style="font-family:Arial; color:#002060; background-color:#c0c0c0;">Personal Information:</span></u></strong></p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:11pt;"><strong>Nationality :</strong> Egyptian</p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:11pt;"><strong>Date Of birth :</strong> 23rd &nbsp;Nov, 1980</p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:11pt;"><strong>Marital Status:</strong> Married ,</p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal;"><strong><span style="font-size:11pt;">Email:</span></strong><span style="font-size:11pt;">&nbsp;</span><a href="mailto:Moh.tayel@gmail.com" style="text-decoration:none;"><span style="font-size:11pt; color:#000000;">Moh.tayel@gmail.com</span></a></p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:11pt;"><strong>Telephones :</strong> +44 7458 938902 &amp; +34 87797 1003</p>
+<p style="margin-top:0pt; margin-bottom:8pt;"><strong><span style="line-height:116%; font-size:10.5pt;">Linked in:</span></strong><span style="line-height:116%; font-size:10.5pt;">&nbsp;</span><a href="https://www.linkedin.com/in/mohamed-tayel-a0889019/" style="text-decoration:none;"><span style="line-height:116%; font-size:8pt; color:#000000;">https://www.linkedin.com/in/mohamed-tayel-a0889019/</span></a></p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:14pt;"><strong><u><span style="font-family:Arial; color:#002060; background-color:#c0c0c0;">Professional Summary:&nbsp;</span></u></strong></p>
+<p style="margin-top:0pt; margin-bottom:0pt; text-align:justify; line-height:normal; font-size:10.5pt;"><span style="font-family:Arial;">A Highly adaptable senior Project Engineer &amp; Project manager and accredited as Marine Warranty surveyor with more than 21 years extensive experience onshore / offshore installation, top side and subsea construction and IRM activities. Deep and shallow water experience in Construction, Installation, Commissioning and Operation of major subsea developments . Management background with diverse talents, skills, experience and achievements in marine engineering, marine warranty assurance, diving and subsea assurance , project / office management , compliance &amp; ethics and people relationships. Extensive interface experience, site experience, professional technical report writing standard and able to communicate very well at all levels, proven management ability.</span></p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal;"><span style="font-family:'Aptos Display'; letter-spacing:-0.5pt;">&nbsp;</span></p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:14pt;"><strong><u><span style="font-family:Arial; color:#002060; background-color:#c0c0c0;">Career Accomplishments:</span></u></strong></p>
+<ul type="disc" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Demonstrated deep understanding of the oil and gas industry, its regulations, and key players.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Successfully identified and managed potential risks and challenges.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Resolved complex client issues promptly and efficiently, maintaining strong relationships with key decision-makers within corporates I work for.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Proactively addressed client concerns and provided innovative solutions.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Negotiated favorable terms and conditions for clients.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Contributed to the development and execution of strategic business plans.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Negotiated and closed multi-million dollar contracts with major oil and gas companies.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Effectively communicated complex technical and commercial information to both technical and non-technical audiences.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Spearheaded offshore installation projects, ensuring seamless operations and adherence to project timelines.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Led cross-functional teams to execute complex offshore projects, driving collaboration and achieving project objectives</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Demonstrated expertise in managing client relationships, ensuring satisfaction and fostering long-term partnerships.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Utilized advanced technical knowledge to oversee equipment installation and maintenance, ensuring compliance with industry standards.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Championed safety protocols and enforced regulatory compliance to uphold the highest standards of offshore operations.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Adapted quickly to changing project requirements and dynamic offshore conditions, maintaining flexibility and resilience.</span></li>
+</ul>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:10.5pt;">&nbsp;</p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:10.5pt;">&nbsp;</p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:16pt;"><strong><u><span style="font-family:Arial; font-size:14pt; color:#002060; background-color:#c0c0c0;">Skills:</span></u></strong><strong>&nbsp;</strong></p>
+<ul type="disc" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Operations &amp; Project Manager: Marine, Diving, ROV &amp; Survey , PMC-PMT office/site works</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Over 20 years experience in offshore Marine installation, operation Support, (Platform installation, Pipe-lay, Cable lay, IRM, SBM, FSO, FPSO , LNG , mooring installation , flexibles , Air , Saturation Diving &amp; ROV operations).</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Engineering, Planning and Logistics support for Offshore Installation work&nbsp;</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Developing</span><span style="font-family:Aptos;">&nbsp;&nbsp;</span><span style="font-family:Aptos;">and reviewing detailed offshore installation procedures.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Intensive utilisation and management of D.P. Barges, D.S.V.&rsquo;s / M.S.V.&rsquo;s and various type Offshore marine support vessels&nbsp;</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Audits for both Diving and Marine to IMCA standards &amp; requirements (Dive systems Assurance under IMCA&nbsp;</span><span style="font-family:Aptos;">&nbsp;</span><span style="font-family:Aptos;">Design&nbsp;</span><span style="font-family:Aptos;">&nbsp;</span><span style="font-family:Aptos;">D023, D024 &amp; R006 Doc&apos;s)</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">PMC project experience.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Project Management (Tendering, planning, procurement, administration &amp; control of Offshore projects and necessary project personnel, vessels &amp; equipment. Liaising with operators on project specific requirements. Producing Pre-Qualification Bid and Tender document packs).</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Auditing of Contractors and equipment &amp; ISM systems&nbsp;</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Pre-Qualifications, Tenders, Contracts and negotiating with clients and suppliers&nbsp;</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Supervise Mob / Demob of Vessels, Construction, Diving &amp; ROV operations .</span></li>
+</ul>
+<p style="margin-top:0pt; margin-left:12.95pt; margin-bottom:0pt; line-height:normal; font-size:10.5pt;">&nbsp;</p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:14pt;"><strong><u><span style="font-family:Arial; color:#002060; background-color:#c0c0c0;">University Degree:&nbsp;</span></u></strong></p>
+<ul type="disc" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">B.Sc. Mechanical Engineering Department (June 2003), Faculty of Engineering, Alex. University.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">MBA in project management from Charisma University, UK Dec. 2019.</span></li>
+    <li style="margin-left:9.83pt; line-height:normal; padding-left:8.17pt; font-family:serif; font-size:10.5pt;"><span style="font-family:Aptos; font-size:11pt;">Accredited MARINE WARRANTY SURVEYOR by Lloyd Maritime Institute, London, March 2021</span><span style="font-family:'Times New Roman';">.</span></li>
+</ul>
+<p style="margin-top:0pt; margin-left:12.95pt; margin-bottom:0pt; line-height:normal; font-size:10.5pt;">&nbsp;</p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:14pt;"><strong><u><span style="font-family:Arial; color:#002060; background-color:#c0c0c0;">Qualifications:</span></u></strong></p>
+<ul type="disc" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><strong><span style="font-family:Aptos; font-size:10.5pt;">CSWIP 3.4u</span></strong><span style="font-family:Aptos; font-size:10.5pt;">&nbsp;</span><span style="font-family:Aptos;">underwater inspection controller , TWI north, Middlesbrough, UK.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">IRCA certified&nbsp;</span><strong><span style="font-family:Aptos; font-size:10pt;">Lead auditor</span></strong><span style="font-family:Aptos; font-size:10pt;">&nbsp;</span><span style="font-family:Aptos;">(Occupational Health &amp; safety Management systems Course No: A17562 )</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><strong><span style="font-family:Aptos; font-size:10.5pt;">LEEA Level (II)</span></strong><span style="font-family:Aptos; font-size:10.5pt;">&nbsp;</span><span style="font-family:Aptos;">Lifting Equipment inspection Engineer certificate.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><strong><span style="font-family:Aptos; font-size:10.5pt;">NEBOSH,</span></strong><strong><span style="font-family:Aptos; font-size:10.5pt;">&nbsp;&nbsp;</span></strong><strong><span style="font-family:Aptos; font-size:10.5pt;">IGC Certificate</span></strong><span style="font-family:Aptos; font-size:10.5pt;">&nbsp;</span><span style="font-family:Aptos;">(No. 00167957/447261) Passed with distinction.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><strong><span style="font-family:Aptos; font-size:10.5pt;">IOSH Managing safely</span></strong><span style="font-family:Aptos; font-size:10.5pt;">&nbsp;</span><span style="font-family:Aptos;">Certificate. ( No. 104672)</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Fire and Industrial safety advanced Diploma.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">4.5 PMP-PgMP PDUs from&nbsp;</span><strong><span style="font-family:Aptos; font-size:10.5pt;">PMI</span></strong><span style="font-family:Aptos; font-size:10.5pt;">&nbsp;</span><span style="font-family:Aptos;">(Project management institute).</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Project Management fundamentals course.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Project planning and control techniques course.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Complete Business plan course.</span></li>
+</ul>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:11pt;"><span style="font-family:'Times New Roman';">&nbsp;</span></p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:14pt;"><strong><u><span style="font-family:Arial; color:#002060; background-color:#c0c0c0;">Memberships &amp; Career Awards:&nbsp;</span></u></strong></p>
+<ul type="disc" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">International Association of Marine Consultants &amp; Surveyors. (</span><strong><span style="font-family:Aptos; font-size:10.5pt;">I.A.M.C.S</span></strong><span style="font-family:Aptos;">)</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Selected by HSE Nations International as one of the OMIS board of judges.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Lifting Equipment Engineers Association. (</span><strong><span style="font-family:Aptos; font-size:10.5pt;">LEEA</span></strong><span style="font-family:Aptos;">)</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Innovation Award 2015 from ADMA&nbsp;</span><strong><span style="font-family:Aptos; font-size:10pt;">OPCO</span></strong><span style="font-family:Aptos;">&nbsp;, UAE (Cutting edge 3D technology and advanced inspection by ROV on offshore Structures.</span></li>
+</ul>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:14pt;"><strong><u><span style="font-family:Arial; color:#002060; background-color:#c0c0c0;">Languages:&nbsp;</span></u></strong></p>
+<ul type="disc" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">ARABIC</span><span style="font-family:Aptos;">&nbsp;&nbsp;</span><span style="font-family:Aptos;">:- Mother tongue.</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">ENGLISH: - Excellent (Fluent Read, Written and Spoken).</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">SPANISH: - adequate knowledge</span><a name="OLE_LINK9"></a><a name="OLE_LINK10"><span style="font-family:Aptos;">, progressing in intermediate level.</span></a></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">ITALIAN :-</span><span style="font-family:Aptos;">&nbsp; &nbsp;</span><span style="font-family:Aptos;">adequate knowledge, progressing in intermediate level</span></li>
+    <li style="margin-left:10.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">PORTUGESE : Beginner Level.</span><span style="width:7.32pt; font-family:Aptos; display:inline-block;">&nbsp;</span></li>
+</ul>
+<p style="margin-top:0pt; margin-left:36pt; margin-bottom:0pt; line-height:normal; font-size:11pt;">&nbsp;</p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:14pt;"><strong><u><span style="font-family:Arial; color:#002060; background-color:#c0c0c0;">Career Summery:</span></u></strong></p>
+<ul type="square" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:10.84pt; line-height:normal; padding-left:2.11pt; font-family:serif;"><a name="OLE_LINK13"></a><a name="OLE_LINK14"><span style="font-family:Aptos;">Offshore Company Rep &ndash; CSR, 2021 - ongoing</span></a></li>
+    <li style="margin-left:10.84pt; line-height:normal; padding-left:2.11pt; font-family:serif;"><span style="font-family:Aptos;">Project Manager (on call, FL ), 2021</span></li>
+    <li style="margin-left:10.84pt; line-height:normal; padding-left:2.11pt; font-family:serif;"><span style="font-family:Aptos;">Offshore Client Rep / OCM / PMC , Offshore Lead ops Eng. (2018- 2021)</span></li>
+</ul>
+<p style="margin-top:0pt; margin-left:12.95pt; margin-bottom:0pt; line-height:normal;">Also acting as Diving Specialist (Diving Assurance) FREE LANCER</p>
+<ul type="square" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:10.84pt; line-height:normal; padding-left:2.11pt; font-family:serif;"><span style="font-family:Aptos;">Project / offshore operation Manager, 2017-2018</span></li>
+    <li style="margin-left:10.84pt; line-height:normal; padding-left:2.11pt; font-family:serif;"><span style="font-family:Aptos;">Senior Subsea Integrity Engineer, 2014 to 2017</span></li>
+    <li style="margin-left:10.84pt; line-height:normal; padding-left:2.11pt; font-family:serif;"><span style="font-family:Aptos;">Offshore Construction Manager , 2008 &ndash; 2014</span><span style="font-family:Aptos;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></li>
+    <li style="margin-left:10.84pt; line-height:normal; padding-left:2.11pt; font-family:serif;"><span style="font-family:Aptos;">Offshore Construction Manager &amp; Company Site Rep, 2006 &ndash; 2008.</span></li>
+    <li style="margin-left:10.84pt; line-height:normal; padding-left:2.11pt; font-family:serif;"><span style="font-family:Aptos;">Sr. Offshore project engineer, 2005 &ndash; 2006</span></li>
+    <li style="margin-left:10.84pt; line-height:normal; padding-left:2.11pt; font-family:serif;"><span style="font-family:Aptos;">Offshore project engineer, 2004 &ndash; 2005</span></li>
+</ul>
+<p style="margin-top:0pt; margin-left:12.95pt; margin-bottom:0pt; line-height:normal;">&nbsp;</p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:14pt;"><strong><u><span style="font-family:Arial; color:#002060; background-color:#c0c0c0;">Professional Experience / Career Overview:&nbsp;</span></u></strong></p>
+<p style="margin-top:0pt; margin-bottom:8pt; line-height:116%; font-size:14pt;"><strong><u><span style="letter-spacing:0.75pt;">ENI CONGO from 2021 &ndash; to present&nbsp;</span></u></strong></p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:116%; font-size:11pt;"><strong>Role</strong> : Offshore Company Site Representative (CSR).</p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:116%; font-size:11pt;"><strong>Projects:&nbsp;</strong></p>
+<ul type="disc" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Baliene Phase II project , Offshore Ivory Coast, Mooring line installation for FSO, FPSO in deep water, c/w flow lines.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Near Shore LNG Project &ndash;Mooring lines Installation &amp; tensioning of FSU Excalibur &amp; FLNG Tango , Flexible riser installation &ndash; Subsea spools, risers</span></li>
+    <li style="margin-left:28.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">NENE&rsquo; PHASE 2B Offshore Installation Campaign</span><span style="font-family:Aptos;">&nbsp;&nbsp;</span><span style="font-family:Aptos;">(630 Ton Jacket , 1300 Ton deck installation , 5km P/L , Pre-commissioning (HLV Nor Goliath, PLV Seminole, DSV Remas, DSV Mamta)</span></li>
+    <li style="margin-left:28.06pt; line-height:normal; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">SIM PIM Project , P/L and Structure integrity campaign for ENI Congo fields &ndash; Structure inspection and pipline inspection (No of 16 jackets), total of 230 km of pipelines.</span></li>
+</ul>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:10pt;"><span style="font-family:'Times New Roman';">==================================================================================</span></p>
+<p style="margin-top:0pt; margin-bottom:8pt; line-height:116%; font-size:14pt;"><strong><u><span style="letter-spacing:0.75pt;">SEA HORSE OILFIELD SERVICES , 2021</span></u></strong></p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal;"><strong>Role:</strong><span style="font-family:'Times New Roman'; font-size:10pt;">&nbsp;</span>Project manager</p>
+<p style="margin-top:0pt; margin-bottom:0pt;"><strong>Projects&nbsp;</strong>:</p>
+<ul type="disc" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Petro CI project &ndash; 8&rdquo; Pipeline replacement , offshore Ivory Coast</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Role include complete project management of engineerirng, execution interms of marine spread selection to execution phase.&nbsp;</span></li>
+</ul>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:10pt;"><span style="font-family:'Times New Roman';">==================================================================================</span></p>
+<p style="margin-top:0pt; margin-bottom:8pt; line-height:116%; font-size:14pt;"><strong><u><span style="letter-spacing:0.75pt;">RANA &ndash; CNS &ndash; SAIPEM , 2020 to 2021&nbsp;</span></u></strong></p>
+<p style="margin-top:0pt; margin-bottom:0pt;"><strong>Role</strong> : Subsea Operation Lead / Diving Specialist, PMC lead Engineer &nbsp;, FREE LANCER&nbsp;</p>
+<p style="margin-top:0pt; margin-bottom:0pt;"><strong>Projects :</strong></p>
+<ul type="disc" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Okume -D &amp; Elon C development project for Trident Energy &ndash; offshore Equatorial Genia.(Diving activities, riser removal, installation, spool pieces, Flexibles, Pre-com, Subsea inspection for 5km pipeline).</span></li>
+</ul>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:116%; font-size:11pt;">&nbsp;</p>
+<ul type="disc" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">SPM replacement project &ndash;Subsea inspection of old buoy, Removal activities for old CALM buoy c/w subsea hoses, floating hoses, anchor chains, install new CALM buoy system from Monobuoy, include testing, pre-commissioning.</span></li>
+    <li style="margin-left:26.68pt; margin-bottom:2pt; line-height:116%; padding-left:9.32pt; font-family:serif; font-size:8pt; background-color:#ffffff;"><span style="line-height:116%; font-family:Aptos; font-size:11pt;">Mobilization of 12 man sat system , AF-05 for CNS &amp; SAIPME in Rotterdam, deliver the system to Cyprus including diving system assurance (D023, D024 , FMECA Vessel Interfaces ) , audit approvals with LOC.</span></li>
+</ul>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:10pt;"><span style="font-family:'Times New Roman';">==================================================================================</span></p>
+<p style="margin-top:0pt; margin-bottom:8pt; line-height:116%; font-size:14pt;"><strong><u><span style="letter-spacing:0.75pt;">Control Sub La Linea, Spain Spain 2019 to 2020.</span></u></strong></p>
+<p style="margin-top:0pt; margin-bottom:2pt; page-break-inside:avoid; page-break-after:avoid;"><strong>Role</strong>: Offshore Client Rep, Control Sub La Linea,</p>
+<p style="margin-top:0pt; margin-bottom:2pt; page-break-inside:avoid; page-break-after:avoid;"><strong>Projects</strong><em><span style="line-height:116%; font-size:10.5pt; color:#272727;">:</span></em></p>
+<ul type="disc" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Working as Offshore Client Rep (Construction, Diving and ROV ops) on different offshore projects through Control Sub, La Linea for REPSOL SPAIN in CASABLANCA field , Tarragona, Spain.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Mobilizing Boka Davinci for 60 days project including D023, D024 , FMECA Vessel Interfaces , Diving System audit and assurance.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">60 km pipeline inspection , Anode inspection on P/F</span></li>
+    <li style="margin-left:28.06pt; margin-bottom:8pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Casa blancaPlatform inspection.</span></li>
+</ul>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:10pt;"><span style="font-family:'Times New Roman';">==================================================================================</span></p>
+<p style="margin-top:0pt; margin-bottom:8pt; line-height:116%; font-size:14pt;"><strong><u><span style="letter-spacing:0.75pt;">Andra Middle East oil field services, UAE, 2017-2019</span></u></strong><strong><u><span style="letter-spacing:0.75pt;">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></u></strong></p>
+<p style="margin-top:0pt; margin-bottom:8pt;"><strong>Role</strong><em>:&nbsp;</em>Technical Project Manager</p>
+<p style="margin-top:0pt; margin-bottom:8pt;"><strong>Projetcs</strong> :</p>
+<ul type="disc" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Taking care of All technical Aspects for the company. Manage the engineering department of upstream offshore EPIC/Fabrication/multidiscipline construction projects from enquiry stage to project execution stage to front end with the clients and handle queries and clarifications</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">To create an engineering organization to handle projects from the initial concept stages, to the execution stages .</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Mobilizing 2 Diving support vessels with 2 WCROV&rsquo;s and 2 classed saturation systems in China for COOEC, including D023, D024 , FMECA Vessel Interfaces, audit approvals.</span></li>
+    <li style="margin-left:28.06pt; margin-bottom:8pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Providing project management for projects through All Sea offshore Asia.</span></li>
+</ul>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:10pt;"><span style="font-family:'Times New Roman';">==================================================================================</span></p>
+<p style="margin-top:0pt; margin-bottom:8pt; line-height:116%; font-size:6.5pt;">&nbsp;</p>
+<p style="margin-top:0pt; margin-bottom:2pt; page-break-inside:avoid; page-break-after:avoid; line-height:116%; font-size:14pt;"><strong><u><span style="letter-spacing:0.75pt;">ADMA-OPCO</span></u></strong><strong><u><span style="letter-spacing:0.75pt;">&nbsp;&nbsp;</span></u></strong><strong><u><span style="letter-spacing:0.75pt;">Onshore Abu Dhabi, UAE , 2014 to 2017</span></u></strong><em><span style="line-height:116%; font-size:12pt; color:#272727;">&nbsp;&nbsp;</span></em></p>
+<p style="margin-top:0pt; margin-bottom:0pt;"><strong>Role</strong>: Senior Subsea Integrity Engineer</p>
+<p style="margin-top:0pt; margin-bottom:0pt;"><strong>Projects</strong>:</p>
+<ul type="disc" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Various projects</span><span style="font-family:Aptos;">&nbsp;&nbsp;</span><span style="font-family:Aptos;">in Zakum &ndash; Ummshief fields through Integrity departement.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Provides technical support to all ADMA - OPCO Asset Units / offshore projects for activities related to Integrity Management of offshore structures and subsea pipelines.&nbsp;</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Prepares tender&apos;s technical specifications, evaluates related technical sub-missions.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Manages, plans &amp; analyses programmes for the inspection and maintenance of all structures, both Topside and Subsea, in all field locations.&nbsp;</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Monitors contractors&apos; performance and ensures compliance with company, national and international codes of practice and standards.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Reviews studies Engineering Drawings/ Plant Modification / Construction Packages and work requests related to corrosion, inspection and mechanical engineering raised by Operating and Technical Division&apos;s Job Officers for offshore structures and subsea pipelines.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Keeps Management informed of latest techniques and procedures of inspection and corrosion control of offshore structure and subsea pipelines.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Monitors competency and developments young UAE national.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Carry out prequalification of subsea contractors / consultants for inclusion in company&apos;s bidders list.&nbsp;</span></li>
+    <li style="margin-left:26.68pt; line-height:116%; padding-left:9.32pt; font-family:serif; font-size:8pt;"><span style="line-height:116%; font-family:Aptos; font-size:11pt;">Participate in reviewing and ensure correct application of the project contract, Quality Plan, ITP, related codes &amp; specification including Company specs.</span></li>
+</ul>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:10pt;"><span style="font-family:'Times New Roman';">==================================================================================</span></p>
+<p style="margin-top:0pt; margin-bottom:2pt; page-break-inside:avoid; page-break-after:avoid; line-height:116%; font-size:14pt;"><strong><u><span style="letter-spacing:0.75pt;">CNS international , Italy, UAE , 2012-2014</span></u></strong></p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:116%; font-size:11pt;"><strong>Role</strong>&nbsp; : Local area manager in Middle East &nbsp;from &nbsp;Oct 12 to March 2014 , UAE</p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:116%; font-size:11pt;"><strong>Projects</strong> :</p>
+<ul type="disc" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Acting as local area development manager for CNS projects in middle east region.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Taking care of all technical aspects and studies related to new projects liaising with project manager in Italy.</span></li>
+</ul>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:10pt;"><span style="font-family:'Times New Roman';">==================================================================================</span></p>
+<p style="margin-top:0pt; margin-bottom:2pt; page-break-inside:avoid; page-break-after:avoid; line-height:116%; font-size:14pt;"><strong><u><span style="letter-spacing:0.75pt;">CNS international, 2008-2012</span></u></strong><em><span style="line-height:116%; font-size:12pt; color:#272727;">&nbsp;</span></em></p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:116%; font-size:11pt;"><strong>Role</strong>: OCM / Senior operation lead Engineer</p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:116%; font-size:11pt;"><strong>Projects</strong> : From 2008 to 2012</p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:116%; font-size:11pt;">&nbsp;</p>
+<ul type="disc" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Bahr Essalam Intermediate start-up campaign , Mobilization for DSV&apos;s in Malta&nbsp;</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Restoring no of 4 subsea wells in BS field, change SCM&apos;s, jumbers, umbilicals, CIV&apos;s,....etc, Replacing flexible P/L in Buori field for MELLITAH , ENI LIBYA.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">DP4 P/F inspection.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">ICCP anode sleds Installation project for Berri, Marjan fields &ndash; SAUDI ARAMCO.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Acting as deputy project manager onshore and offshore Saudi for the A/M project.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">KANGEAN Energy Indonesia, PT.TIMAS SUPLINDO as a client</span><span style="font-family:Aptos;">&nbsp; &nbsp;</span><span style="font-family:Aptos;">DSV CREST ODYSSEY-1, Offshore Indonesia, 28&rdquo; hot tapping on existing EJGP P/L,vPLEM installation, configuration of PLEM valves, Umbilical&rsquo;s, flying leads installation, Pre-commissioning work of new 18&rdquo; P/L (flooding, pigging, hydro testing).</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Usari Idoho Project &ndash; Critical Crude &ndash; Nigeria EXXON MOBILE &amp; SAIPEM S.A as a client</span><span style="font-family:Aptos;">&nbsp;&nbsp;</span><span style="font-family:Aptos;">, 10&rdquo;, 20&rdquo;, 24&rdquo; pipe laying, Jacket, deck installation, Riser clamps, risers, spool pieces, mattresses installation, Free span corrections, subsea inspection</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Huizhou Phase 2 Salvage and BTM Installation Project CLOUGHHELIX AUS &amp; CNOOC, COEEC CHINA , Preparing procedure package for Salvage work of Huizhou field FPSO system, including salvage of 8 old mooring lines, 3 flexible risers, 3 MWAS, 3 PLEMS, power cables, Preparing procedure package for new BTM installation along with new mooring system, 3 PLEMS, MWAS, flexible risers, spool pieces.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">SAUDI ARAMCO, ADAMS OFFSHORE campaign, the campaign includes Heavy lifting jackets, decks, Pipe laying activities for various pipelines (30&rdquo; &amp; 24&rdquo; &amp; 16&rdquo;), precommissioning work, 83 spool pieces , risers diff sizes, Cable anchoring to the platform jacket legs (8 cables).</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">KJO (Khafji</span><span style="font-family:Aptos;">&nbsp;&nbsp;</span><span style="font-family:Aptos;">/ Aramco Joint Operation , Field development operation, FDP-1) , Pulling&nbsp;</span><a name="OLE_LINK15"></a><a name="OLE_LINK16"><span style="font-family:Aptos;">of 27 submarine cables inside J-tubes,</span></a><span style="font-family:Aptos;">&nbsp;to junction box locations for termination, Perform Tie-backs to Jacket&rsquo;s legs, As built final surveys.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Preparing set of different subsea work procedures as a generic cases to be used for tendering issues, onshore Italy</span><a name="OLE_LINK5"></a><a name="OLE_LINK6"><span style="font-family:Aptos;">.</span></a></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">MELITTAH GAS &amp; AGIP &amp; ADAMS OFFSHORE subse sea spool rerpair, Disconnect 12&rdquo;/8&rdquo; leaking spool from the SSIV, Bahr Esslam field, install smart pigs, configure SSIV.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">MAERSK OIL QATAR, ADAMS OFFSHORE Recovering an 8 ton anchor in al Shaheen field.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Free span rectification for the 24&rdquo; P/L from MARGAN-1 TO ZULF G-2 (SAUDI ARAMCO) (air and sat diving work).</span><a name="OLE_LINK1"></a><a name="OLE_LINK2"></a><a name="OLE_LINK17"></a></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Saudi ARAMCO diving campaign 2008 Khalifa Algosaibi&nbsp;</span><a name="OLE_LINK24"><span style="font-family:Aptos;">(air and sat)</span></a><span style="font-family:Aptos;">, spools, risers, mattresses, cables&nbsp;</span><a name="OLE_LINK18"></a><a name="OLE_LINK19"><span style="font-family:Aptos;">, FCG</span></a></li>
+</ul>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:10pt;"><span style="font-family:'Times New Roman';">==================================================================================</span></p>
+<p style="margin-top:0pt; margin-bottom:2pt; page-break-inside:avoid; page-break-after:avoid; line-height:116%; font-size:14pt;"><strong><u><span style="letter-spacing:0.75pt;">PMS Offshore, 2004-2008</span></u></strong></p>
+<p style="margin-top:0pt; margin-bottom:8pt; line-height:116%; font-size:11pt;"><strong>Role</strong>: offshore Construcion manager / Senior offshore installation Engineer from 2003 to 2008</p>
+<p style="margin-top:0pt; margin-bottom:8pt; line-height:116%; font-size:11pt;"><strong>Projects :&nbsp;</strong></p>
+<ul type="disc" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Managing multi-discipline projects for prominent oil operators or EPCI contractors in Egypt, such as Eni, Petrobel, RASHPETCO, BG, Gupco, BP, Burullus, and SAIPEM</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">24&quot; By-pass P/L from T-4 P/F to SSIV (pre-commissioning, spools installation), FCG.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Rosetta Phase III Development (22&quot;, 18&quot;, 10&quot; P/L&apos;s pre-commissioning, spools installation).</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">22&rdquo; pipeline repair , smart flanges and repair clamps.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">24&quot; by-pass P/L From SSIV to T-4 &amp; 32&quot; Dennies P/L</span><span style="font-family:Aptos;">&nbsp;&nbsp;</span><span style="font-family:Aptos;">from TNW-2 to shore (W.D =75-85 m)</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">SAQQARA field Development project &amp; Hilal Jumper Installation , P/F installation, pipelaying, spools, Pre-com, risers. Crossings.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">MORGAN / SAQQARA field&apos;s Development project (20&quot;, 18&quot;, 16&quot;, 12&quot; &amp; 4.5&quot; sub sea P/L) including laying, leak repairs, free spans, pre-lay crossings, risers, spools.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">ONS Field Development, 22&rdquo; Pipe line , 42km , Jacket , deck installation, subsea spools.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">TEMSAH Field Restoration &amp; Plem Replacement Project , 24&rdquo;, 18&rdquo;, 8&rdquo; pie laying, new P/F installation, 2 PLEMS, subsea plugging.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Baltim-North P/F And Associated Sea lines.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Morgan Field ROV Inspection , GVI, SP, FMD.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">18&quot;/4&quot; at BALTIM-NORTH &amp; BALTIM-EAST P/F, tie-in spools, riser instalaltion.</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">RPP P/F development, hook up activities, demolishing for old deck extensio</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Belayim Field Upgrading, Hook up activities on board no of 13 P/F, Tie-In activities, Riser fabrication and installation, clamp installation, spool pieces fabrication and installation, above water tie-in.</span></li>
+</ul>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:10pt;"><span style="font-family:'Times New Roman';">==============================================================================</span></p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:14pt;"><strong><span style="font-family:Arial; color:#002060;">&nbsp;</span></strong></p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:14pt;"><strong><u><span style="font-family:Arial; color:#002060; background-color:#c0c0c0;">Continuing Professional Development:</span></u></strong></p>
+<ul type="disc" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Work Permit Receiver (KJO / ARAMCO ), Saudi Arabia</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">BP HSE Familiarization Course</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">TOTAL Angola HSE familiarization&nbsp;</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Task Risk Assessment Course</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Performing Authority, PTW System</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Advanced Safety Audit</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Painting Technology course</span></li>
+    <li style="margin-left:28.06pt; line-height:116%; padding-left:7.94pt; font-family:serif; font-size:11pt;"><span style="font-family:Aptos;">Project planning and control techniques</span></li>
+    <li style="margin-left:27.14pt; line-height:116%; padding-left:8.86pt; font-family:serif; font-size:9pt;"><span style="line-height:116%; font-family:Aptos; font-size:11pt;">Budget control techniques</span><span style="font-family:Aptos;">&nbsp;course</span></li>
+</ul>
+<p style="margin-top:0pt; margin-left:36pt; margin-bottom:0pt; line-height:116%; font-size:9pt;">&nbsp;</p>
+<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:14pt;"><strong><u><span style="font-family:Arial; color:#002060; background-color:#c0c0c0;">References&nbsp;</span></u></strong><strong><u><span style="font-family:Arial; font-size:11pt; color:#002060; background-color:#c0c0c0;">(from Managers with whom I have worked on past projects)</span></u></strong><strong><u><span style="font-family:Arial; color:#002060; background-color:#c0c0c0;">:</span></u></strong></p>
+<ol type="1" class="awlist1" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:36pt; text-indent:-18pt; line-height:116%; font-size:11pt;"><span style="width:8.22pt; font:7pt 'Times New Roman'; display:inline-block;">&nbsp; &nbsp; &nbsp;&nbsp;</span>Gabriella Fasano - offshore project manager &ndash; Eni Congo</li>
+</ol>
+<p style="margin-top:0pt; margin-left:36pt; margin-bottom:0pt;"><a href="mailto:Gabriella.Fasano@eni.com" style="text-decoration:none;"><u><span style="line-height:116%; font-size:11pt; color:#467886;">Gabriella.Fasano@eni.com</span></u></a></p>
+<p style="margin-top:0pt; margin-left:36pt; margin-bottom:0pt; line-height:116%; font-size:11pt;">M +39 333 989 8875</p>
+<ol start="2" type="1" class="awlist2" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:36pt; text-indent:-18pt; line-height:116%; font-size:11pt;"><span style="width:8.22pt; font:7pt 'Times New Roman'; display:inline-block;">&nbsp; &nbsp; &nbsp;&nbsp;</span>Ronet Okombi &ndash; Technical Director - Eni Congo</li>
+</ol>
+<p style="margin-top:0pt; margin-left:36pt; margin-bottom:0pt;"><a href="mailto:ronet.okombi-yombi@eni.com" style="text-decoration:none;"><u><span style="line-height:116%; font-size:11pt; color:#467886;">ronet.okombi-yombi@eni.com</span></u></a></p>
+<p style="margin-top:0pt; margin-left:36pt; margin-bottom:0pt; line-height:116%; font-size:11pt;">M +242 05 520 9251</p>
+<ol start="3" type="1" class="awlist3" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:36pt; text-indent:-18pt; line-height:116%; font-size:11pt;"><span style="width:8.22pt; font:7pt 'Times New Roman'; display:inline-block;">&nbsp; &nbsp; &nbsp;&nbsp;</span>Mauro Battagliola &ndash; Senior Offshoe Consultant &ndash; RINA</li>
+</ol>
+<p style="margin-top:0pt; margin-left:36pt; margin-bottom:0pt;"><a href="mailto:mauro.battagliola@gmail.com" target="_blank" style="text-decoration:none;"><u><span style="line-height:116%; font-family:Calibri; font-size:11pt; color:#1155cc; background-color:#ffffff;">mauro.battagliola@gmail.com</span></u></a><span style="line-height:116%; font-family:Calibri; font-size:11pt; background-color:#ffffff;">&nbsp;</span></p>
+<p style="margin-top:0pt; margin-left:36pt; margin-bottom:0pt; line-height:116%; font-size:11pt;">M +39 335 370050</p>
+<ol start="4" type="1" class="awlist4" style="margin:0pt; padding-left:0pt;">
+    <li style="margin-left:36pt; text-indent:-18pt; line-height:116%; font-size:11pt;"><span style="width:8.22pt; font:7pt 'Times New Roman'; display:inline-block;">&nbsp; &nbsp; &nbsp;&nbsp;</span><span style="font-family:Arial; background-color:#ffffff;">Roberto Vinci</span><span style="font-family:Arial; background-color:#ffffff;">&nbsp;</span><span style="font-family:Arial; background-color:#ffffff;">&nbsp;&nbsp;</span><span style="font-family:Arial; background-color:#ffffff;">- Offshore Projects PM &ndash; RINA</span></li>
+</ol>
+<p style="margin-top:0pt; margin-left:36pt; margin-bottom:0pt;"><a href="mailto:roberto.vinci@rina.org" style="text-decoration:none;"><u><span style="line-height:116%; font-size:11pt; color:#467886;">roberto.vinci@rina.org</span></u></a></p>
+<p style="margin-top:0pt; margin-left:36pt; margin-bottom:0pt; line-height:116%; font-size:11pt;">M. +39 347 06 12 202<br>M. +242 056 236 388</p>
+<p style="margin-top:0pt; margin-left:36pt; margin-bottom:0pt; line-height:116%; font-size:11pt;">&nbsp;</p>
+<p style="margin-top:0pt; margin-left:36pt; margin-bottom:8pt; line-height:116%; font-size:11pt;">&nbsp;</p>
+<p style="bottom: 10px; right: 10px; position: absolute;"><a href="https://wordtohtml.net" target="_blank" style="font-size:11px; color: #d0d0d0;">Converted to HTML with WordToHTML.net</a></p>
