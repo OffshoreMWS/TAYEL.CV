@@ -1,3 +1,78 @@
+# Cleaning the text and converting it into a basic HTML structure
+import re
+
+# Define HTML template
+html_template = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Mohamed Tayel</title>
+    <style>
+        body {{
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }}
+        h1, h2, h3 {{
+            color: #2E86C1;
+        }}
+        .contact {{
+            font-size: 1.2em;
+        }}
+        .section {{
+            margin-bottom: 20px;
+        }}
+        ul {{
+            list-style-type: none;
+            padding: 0;
+        }}
+        ul li {{
+            margin: 5px 0;
+        }}
+    </style>
+</head>
+<body>
+
+<h1>MOHAMED TAYEL</h1>
+<h2>Offshore Company Site Representative & Offshore Installation Manager</h2>
+
+<div class="contact">
+    <p><strong>Nationality:</strong> Egyptian</p>
+    <p><strong>Date of Birth:</strong> 23rd Nov, 1980</p>
+    <p><strong>Marital Status:</strong> Married</p>
+    <p><strong>Email:</strong> Moh.tayel@gmail.com</p>
+    <p><strong>Phone:</strong> +44 7458 938902 & +34 87797 1003</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mohamed-tayel-a0889019/">linkedin.com/in/mohamed-tayel</a></p>
+</div>
+
+<div class="section">
+    <h2>Professional Summary</h2>
+    <p>A Highly adaptable senior Project Engineer & offshore installation manager, accredited as a Marine Warranty surveyor with over 21 years of extensive experience in onshore/offshore installation, top-side and subsea construction, and IRM activities...</p>
+</div>
+
+<div class="section">
+    <h2>Skills</h2>
+    <ul>
+        <li>Operations & Project Management</li>
+        <li>Over 20 years experience in offshore marine installation</li>
+        <li>Engineering, Planning, and Logistics support for offshore installation work</li>
+        <li>Developing and reviewing detailed offshore installation procedures</li>
+        <!-- More Skills -->
+    </ul>
+</div>
+
+<div class="section">
+    <h2>University Degree</h2>
+    <ul>
+        <li>B.Sc. Mechanical Engineering, Alex. University, June 2003</li>
+        <li>MBA in Project Management, Charisma University, UK, Dec. 2019</li>
+    </ul>
+</div>
+
+<div class="section">
+
 # Continuing the HTML structure process after extracting text and planning to clean and convert it.
 
 # HTML template initialization
@@ -147,3 +222,4 @@ with open(html_output_path, 'w') as f:
     f.write(html_template)
 
 html_output_path
+
